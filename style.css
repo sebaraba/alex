@@ -51,13 +51,7 @@ header {
     font-size: 40px;
 }
 
-p::before {
-    content: '\1F449'; /* 👉 */
-    margin-left: 10px;
-    padding: 10px;
-}
-
-P::after {
+p::after {
     content: '\2714'; /* ✔️ */
     margin-left: 10px;
     padding: 10px;
@@ -124,15 +118,4 @@ P::after {
     justify-content: center; /* Center photos horizontally */
     align-items: center; /* Center photos vertically */
     margin-top: 100px;
-}
-
-
-p::before {
-    content: '\1F643'; /* 🙃 */
-    margin-left: 10px;
-    padding: 10px;
-}
-
-li {
-    list-style-type: none;
 }
